@@ -1,30 +1,50 @@
 /* This file is for your main application css. */
-
 @import "bootstrap";
 
-.side { padding: 4ex; text-align: center; }
-h1 { text-align: center; }
-.col-md { background-color: palegoldenrod ;
-	  border-style: solid;
-	  padding: 5px 5px; }
-.col-md-6 { padding: 5px 5px; 
-	    text-align: center; }
-.card-front { background-color: pink;
-	      width: 70%; 
-	      height: 80px;
-	      margin: auto; 
-	      vertical-align: center;
-	      padding: 5px; 
-	      text-align: center; } 
-.card-back { background-color: palevioletred;
-	     width: 70%;
-             height: 80px;
-             margin: auto;
-             vertical-align: center; 
-	     padding: 5px; }
-.card-matched { background-color: palegreen;
-                width: 70%;
-                height: 80px;
-                margin: auto;
-             	vertical-align: center;
-             	padding: 5px; }
+.side {
+	padding: 4ex;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+.col-md {
+	background-color: palegoldenrod;
+	border-style: solid;
+	padding: 5px;
+}
+
+.col-md-6 {
+	padding: 5px;
+	text-align: center;
+}
+
+.card-front {
+	background-color: pink;
+	width: 70%;
+	height: 80px;
+	margin: auto;
+	vertical-align: center;
+	padding: 5px;
+	text-align: center;
+}
+
+.card-back {
+	background-color: palevioletred;
+	width: 70%;
+	height: 80px;
+	margin: auto;
+	vertical-align: center;
+	padding: 5px;
+}
+
+.card-matched {
+	background-color: palegreen;
+	width: 70%;
+	height: 80px;
+	margin: auto;
+	vertical-align: center;
+	padding: 5px;
+}
